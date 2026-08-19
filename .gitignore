@@ -1,0 +1,16 @@
+# KiCad autosave / backup files
+*-backups/
+*.bak
+*.bck
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+*.lck
+
+# KiCad history
+.history/
+
+# OS junk
+Thumbs.db
+.DS_Store
