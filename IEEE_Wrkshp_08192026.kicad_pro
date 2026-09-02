@@ -572,6 +572,12 @@
         },
         {
           "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -598,12 +604,6 @@
           "group_by": false,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
           "show": true
         },
         {
@@ -646,6 +646,12 @@
           "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
           "show": false
         }
       ],
@@ -697,7 +703,7 @@
         "uuid": "824421fc-8a19-470d-bade-de9c93481fa2"
       }
     ],
-    "used_designators": "R1-10,J1-2,T1,#PWR1-5,D1-10,C1-9,U1,Q1,L1,G1,F1",
+    "used_designators": "R1-10,J1-3,T1,#PWR1-5,D1-10,C1-9,U1-2,Q1,L1,G1,RV1,F1",
     "variants": []
   },
   "sheets": [
