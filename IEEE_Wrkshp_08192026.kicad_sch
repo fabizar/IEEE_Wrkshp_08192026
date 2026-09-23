@@ -2972,7 +2972,7 @@
 	)
 	(text "V_{rms} = V_{pk}/sqrt(2)\n120V_{rms} = 169.7V_{pk}/1.414\n\nV_{time} = A*cos(2πƒt + Θ)\n\nƒ = 60Hz\nT = 16.~{66}ms\n\nλ = v/ƒ\n%50*c/60Hz = 2.5km"
 		(exclude_from_sim no)
-		(at 33.274 114.554 0)
+		(at 50.292 239.014 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2983,7 +2983,7 @@
 	)
 	(text "V_{DC, peak} = V_{rms}*sqrt(2) - 2V_{D}\nV_{D} = 0.7V_{DC}\n21.2V_{pk} - 1.4V = 19.8V_{DC, pk}"
 		(exclude_from_sim no)
-		(at 92.964 122.428 0)
+		(at 109.982 246.888 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2994,7 +2994,7 @@
 	)
 	(text "ΔV = I_{load}/ƒ_{ripple}*C\nƒ_{ripple} = 120 Hz\n\nAt I = 100mA and C = 470uF:\nΔV = 0.1A/120Hz*0.00047F\nΔV = 1.77V\n\nSo, 19V_{DC} ±0.8V_{DC ripple}"
 		(exclude_from_sim no)
-		(at 116.078 120.65 0)
+		(at 133.096 245.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3005,7 +3005,7 @@
 	)
 	(text "V_{primary}/V_{secondary} = N_{primary}/N_{secondary}\nV_{p} = 120Vrms, V_{s} = 15Vrms\n120/15 = 8:1 turns\n\nI_{primary}/I_{secondary} = N_{secondary}/N_{primary}\nV_{p}I_{p} = V_{s}I_{s}\nVA = V_{secondary, rms}I_{secondary,rms}\napprox. 20VA\n\nV_{pk} = V_{rms}*sqrt(2)\n15V_{rms}*sqrt(2) = 21.2V_{pk}"
 		(exclude_from_sim no)
-		(at 53.34 117.856 0)
+		(at 70.358 242.316 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3831,7 +3831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x03"
+		(property "Value" "TB002-500-02BE"
 			(at 227.33 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
